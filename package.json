@@ -11,7 +11,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "install": "^0.13.0",
+    "rollup-plugin-copy": "^3.5.0",
     "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-html": "^0.2.1",
     "three": "^0.141.0",
     "web-ifc": "0.0.33",
     "web-ifc-three": "0.0.116"
