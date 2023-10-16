@@ -119796,7 +119796,7 @@ class IFCLoader extends Loader {
 
   // Sets up the IFC loading
   const ifcLoader = new IFCLoader();
-  ifcLoader.ifcManager.setWasmPath("../wasm/");
+  ifcLoader.ifcManager.setWasmPath("./wasm/");
   const input = document.getElementById("file-input");
   input.addEventListener(
     "change",
