@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "rollup-plugin-css-only": "^4.3.0",
     "web-ifc-viewer": "^1.0.177"
   },
   "devDependencies": {
