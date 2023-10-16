@@ -2,8 +2,8 @@ import resolve from '@rollup/plugin-node-resolve';
 import css from'rollup-plugin-css-only'
 import html from 'rollup-plugin-html';
 import copy from 'rollup-plugin-copy';
-import serve from 'rollup-plugin-serve';
-import livereload from 'rollup-plugin-livereload';
+// import serve from 'rollup-plugin-serve';
+// import livereload from 'rollup-plugin-livereload';
 export default {
   input: './src/index.js',
   output: [
@@ -33,11 +33,11 @@ export default {
         { src: './wasm', dest: 'dist' }, // Copy the entire 'wasm' folder
       ],
     }),
-    serve({
-      open: true,
-      contentBase: 'dist',
-      port: 3000, // Choose the port you prefer
-    }),
-    livereload('dist'),
+    // serve({
+    //   open: true,
+    //   contentBase: 'dist',
+    //   port: 3000, // Choose the port you prefer
+    // }),
+    // livereload('dist'),
   ]
 };
