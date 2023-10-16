@@ -10,7 +10,6 @@ export default {
     {
       format: 'esm',
       file: './dist/bundle.js',
-      dir: 'dist',
       inlineDynamicImports: true
     },
   ],
