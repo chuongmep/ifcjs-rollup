@@ -26,6 +26,7 @@ export default {
     }),
     copy({
       targets: [
+        {src: 'src/icon.png', dest: 'dist'},
         { src: 'src/*.html', dest: 'dist' }, // Copy all HTML files from src to dist
         { src: './wasm', dest: 'dist' }, // Copy the entire 'wasm' folder
       ],
